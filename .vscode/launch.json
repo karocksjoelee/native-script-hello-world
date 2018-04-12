@@ -1,0 +1,44 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch on iOS",
+            "type": "nativescript",
+            "request": "launch",
+            "platform": "ios",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "watch": true
+        },
+        {
+            "name": "Attach on iOS",
+            "type": "nativescript",
+            "request": "attach",
+            "platform": "ios",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "watch": false
+        },
+        {
+            "name": "Launch on Android",
+            "type": "nativescript",
+            "request": "launch",
+            "platform": "android",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "watch": true
+        },
+        {
+            "name": "Attach on Android",
+            "type": "nativescript",
+            "request": "attach",
+            "platform": "android",
+            "appRoot": "${workspaceRoot}",
+            "sourceMaps": true,
+            "watch": false
+        }
+    ]
+}
